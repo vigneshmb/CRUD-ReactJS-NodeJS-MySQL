@@ -1,0 +1,9 @@
+CREATE TABLE `employees` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `name` varchar(255) NOT NULL,
+  `age` int NOT NULL,
+  `country` varchar(45) NOT NULL,
+  `position` varchar(45) NOT NULL,
+  `wage` float NOT NULL,
+  PRIMARY KEY (`id`)
+);
